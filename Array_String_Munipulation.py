@@ -4,6 +4,8 @@
 Your company built an in-house calendar tool called HiCal. 
 You want to add a feature to see the times in a day when everyone is available.
 
+[(1, 10), (2, 6), (3, 5), (7, 9)]
+
 https://www.interviewcake.com/question/python/merging-ranges?course=fc1&section=array-and-string-manipulation
 
 """
@@ -30,6 +32,7 @@ def merge_ranges(meetings):
 
     return merged_meetings
   
+    # O(nlgn) time and O(n)O(n) space.
   
   """
   LeetCode:
